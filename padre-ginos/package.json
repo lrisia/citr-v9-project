@@ -4,13 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css}\""
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css}\"",
+    "lint": "eslint"
   },
   "keywords": [],
+  "type": "module",
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "@eslint/js": "^9.26.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "eslint": "9.9.1",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "15.9.0",
+    "prettier": "^3.5.3",
+    "vite": "5.4.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
