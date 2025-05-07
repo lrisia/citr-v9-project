@@ -26,8 +26,8 @@ export default [
       }
     },
     rules: {
-      "react/jsx-uses-react": "error",
-      "react/jsx-uses-vars": "error",
+      "react/no-unescaped-entities": "off",
+      "react/prop-types": "off",
     }
   },
   prettier
